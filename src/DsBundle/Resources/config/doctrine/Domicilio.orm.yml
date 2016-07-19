@@ -1,0 +1,20 @@
+DsBundle\Entity\Domicilio:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        calle:
+            type: string
+            length: 255
+        colonia:
+            type: string
+            length: 255
+        entidad:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

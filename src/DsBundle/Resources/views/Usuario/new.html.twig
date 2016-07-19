@@ -1,0 +1,18 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+			    <h1>Creción de usuario</h1>
+			    	{{ form(form) }}
+			        <a class="btn btn-w-md btn-default" href="{{ path('usuario') }}">
+			            Regresar
+			        </a>
+			 </div>
+		</div>
+	</div>
+</section>
+			
+{% endblock %}

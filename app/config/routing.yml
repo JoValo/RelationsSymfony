@@ -1,0 +1,4 @@
+ds:
+    resource: "@DsBundle/Resources/config/routing.yml"
+    prefix:   /
+

@@ -1,0 +1,11 @@
+ds_domicilio:
+    resource: "@DsBundle/Resources/config/routing/domicilio.yml"
+    prefix:   /domicilio
+
+ds_usuario:
+    resource: "@DsBundle/Resources/config/routing/usuario.yml"
+    prefix:   /usuario
+
+ds_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: DsBundle:Default:index }

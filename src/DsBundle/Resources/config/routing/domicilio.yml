@@ -1,0 +1,30 @@
+domicilio:
+    path:     /
+    defaults: { _controller: "DsBundle:Domicilio:index" }
+
+domicilio_show:
+    path:     /{id}/show
+    defaults: { _controller: "DsBundle:Domicilio:show" }
+
+domicilio_new:
+    path:     /new
+    defaults: { _controller: "DsBundle:Domicilio:new" }
+
+domicilio_create:
+    path:     /create
+    defaults: { _controller: "DsBundle:Domicilio:create" }
+    methods:  POST
+
+domicilio_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "DsBundle:Domicilio:edit" }
+
+domicilio_update:
+    path:     /{id}/update
+    defaults: { _controller: "DsBundle:Domicilio:update" }
+    methods:  [POST, PUT]
+
+domicilio_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "DsBundle:Domicilio:delete" }
+    methods:  [POST, DELETE]
